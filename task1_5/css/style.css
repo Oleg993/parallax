@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page1 {
+  background: url(/img/Mountains.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page1 > h1 {
+  font-size: 100px;
+  color: rgb(155, 189, 219);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+}
+
+.page2 {
+  background: url(/img/Sky.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page2 > h1 {
+  font-size: 100px;
+  color: rgb(144, 153, 160);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+}
+
+.page3 {
+  background: url(/img/Summer.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page3 > h1 {
+  font-size: 100px;
+  color: rgb(0, 253, 240);
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+}
